@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ukr">
+<head>
+	<title>IT Academy</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+</head>
+
+<body>
+	<a name="top"></a>
+	<div class="container-fluid">
+		<div class="logotype">
+			<img class="logo" src="img/logo.png">
+		</div>
+
+		<div class="navigation" align="center">
+			<ul>
+				<li>
+					<a class="main_top" href="#courses">Курсы</a>
+				</li>
+				<li>
+					<a class="main_top" href="#teachers">Преподаватели</a>
+				</li>
+				<li>
+					<a class="main_top" href="#map">Контакты</a>
+				</li>
+			</ul>
+		</div>
+
+		<div class="language">
+			<ul>
+				<li>
+					<a class="main_top" href="index.html">Укр</a>
+				</li>
+				<li>
+					/
+				</li>
+				<li>
+					<a class="main_top" href="rus.html">Eng</a>
+				</li>
+			</ul>
+		</div>
+	</div>		
+
+	<div class="slider">
+		<button class="prev" onclick="prev()"></button>
+			<div id="slide-1 picture">
+				<div class="shape round"></div>
+<!-- 				<div class="shape square"></div> -->
+				<div class="picture_title">IT ACADEMY</div>
+				<img id="slider" src="img/women.png" class="person women">
+			</div>
+        <button class="next" onclick="next()"></button>
+    </div>
+
+	<div class="main-container">
+		<div class="courses" id="courses">
+			<div class="english">
+				<div class="english_first">
+					<p class="courses-title">Что ты будешь изучать у нас</p>
+
+					<img class="courses_1" src="img/courses_1.jpg">
+					<img class="courses_2" src="img/courses_2.jpg">
+
+					<a data-fancybox="button-play-1" href="https://youtu.be/mOkyKTzNcKM" target="_blank" class="button-play-1 hero__button-play">Смотреть описание курса</a>
+				</div>
+
+				<div class="english_second">
+					<p class="course_eng" align="justify">Курс английского языка<br><br><span class="course_length">Срок обучения 8 мес</span><br><br><span class="course-description">Наша школа английского языка приглашает на обучение студентов разного возраста - взрослых, подростков и детей с 6 лет. Английский язык для детей и взрослых преподают квалифицированные спецеалисты с сертификатами Delta, CELTA, TKT, TESOL и TEFL.</span></p>
+				</div>
+			</div>
+
+			<div class="hackers">
+				<img class="courses-2_1" src="img/courses-2_1.jpg">
+				<img class="courses-2_2" src="img/courses-2_2.jpg">
+
+				<p class="course_hack" align="justify">Школа Хакеров<br><br><span class="course_length">Срок обучения 12 мес</span><br><br><span class="course-description">Данные занятия будут интересны специалистам по информационной безопасности, перед которыми стоит задача защиты перимитра сети. Курс совместил как теоретическую, так и практическую часть в виде самостоятельного выполнения лабораторных работ с помощью VMware Workstation или VirtualBox.</span></p>
+
+				<a data-fancybox="button-play-2" href="https://www.youtube.com/watch?v=s756eFkW6ZI" target="_blank" class="button-play-2 hero__button-play">Смотреть описание курса</a>
+			</div>
+
+			<button id="teachers" class="more"><a href="https://intita.com/teachers"> Больше</a></button>
+		</div>
+
+		<div class="about">
+			<div class="circle_o"></div>
+			<div class="circle_i"></div>
+
+			<img class="background" src="img/background.png">
+			<img id="notebook" src="img/notebook.png">
+			<p class="about_description" align="justify"><span class="about_title">О нашей академии</span><br><br><br><span class="about_text">Мы работаем в сфере ІТ обучения уже больше 20 лет. Наша команда - это слияние опыта и энтузиазма молодых специалистов! Преподаватели ІТ Академии - успешные ІТ специалисты с большим практическим опытом. Наши программы обучения постоянно обновляются, чтобы идти в ногу с требованиями главных международных ІТ компаний.<br>Наша цель - подготовка конкурентоспособных ІТ специалистов с высоким уровнем знаний и практических навыков.</p>
+		</div>
+
+		<div class="companies">
+			<p class="companies_title">Компании с которыми сотрудничаем</p>
+
+			<img class="softserve" src="img/softserve.png">
+			<img class="epam" src="img/epam.png">
+			<img class="luxoft" src="img/luxoft.png">
+			<img class="ciklum" src="img/ciklum.png">
+		</div>
+	</div>
+
+
+		<div class="footer">
+			<ul class="down_nav">
+				<li>
+					<a class="main_top" href="#top">Главаня</a>
+				</li>
+				<li>
+					<a class="main_top" href="#about">О нас</a>
+				</li>
+				<li>
+					<a class="main_top" href="#courses">Курсы</a>
+				</li>
+				<li>
+					<a class="main_top" href="#teachers">Преподаватели</a>
+				</li>
+				<li>
+					<a class="main_top" href="#map">Где мы находимся?</a>
+				</li>
+			</ul>
+				<a href="https://www.instagram.com/ita.in.ua/"><img class="instagram" src="img/instagram.svg"></a>
+				<a href="https://www.facebook.com/vinnytsia.itacademy/?__tn__=%2Cd%2CP-R&eid=ARB0ZlB1k22p8E6b83eNtQJ1X974fCxqpibPqTKeBExclFY8zHQFvA5t8uW7UoLWeZc0oYUOO1PwCDRl"><img class="facebook" src="img/facebook.svg"></a>
+				<a href="https://twitter.com/IT_Academy_A_S"><img class="twitter" src="img/twitter.svg"></a>
+			
+			<a name="map"></a>
+			<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10421.650208733518!2d28.397241800000003!3d49.230667000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x685951899cd46c2a!2sVinnytsia%20IT%20Academy!5e0!3m2!1suk!2sua!4v1575638083619!5m2!1suk!2sua" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+		</div>
+
+		<div id="progressbar"></div>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+	<script type="text/javascript" src="scripts/scripts.js"></script>
+	<script src="jquery.min.js"></script>
+	<script src="owlcarousel/owl.carousel.min.js"></script>
+</body>
+</html>
